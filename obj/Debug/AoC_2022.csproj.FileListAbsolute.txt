@@ -1,0 +1,8 @@
+C:\Users\Usuario\source\repos\Sadrmm\AoC_2022\AoC_2022\bin\Debug\AoC_2022.exe.config
+C:\Users\Usuario\source\repos\Sadrmm\AoC_2022\AoC_2022\bin\Debug\AoC_2022.exe
+C:\Users\Usuario\source\repos\Sadrmm\AoC_2022\AoC_2022\bin\Debug\AoC_2022.pdb
+C:\Users\Usuario\source\repos\Sadrmm\AoC_2022\AoC_2022\obj\Debug\AoC_2022.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Sadrmm\AoC_2022\AoC_2022\obj\Debug\AoC_2022.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\source\repos\Sadrmm\AoC_2022\AoC_2022\obj\Debug\AoC_2022.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Sadrmm\AoC_2022\AoC_2022\obj\Debug\AoC_2022.exe
+C:\Users\Usuario\source\repos\Sadrmm\AoC_2022\AoC_2022\obj\Debug\AoC_2022.pdb

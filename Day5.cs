@@ -38,6 +38,40 @@ namespace AoC_2022
             }
 
             //obtatin top char in stacks
+            string topStacks = ObtainTopSacks(stacks);
+
+            return topStacks;
+        }
+
+        public static string PartB()
+        {
+            string[] input = File.ReadAllLines("../../inputEjer5A.txt");
+
+            //the stacks and the movements
+            Stack<char>[] stacks = ObtainOriginStacks(input);
+            List<Movement> movements = ObtainMovements(input);
+
+            //apply movements
+            foreach (Movement move in movements) {
+                Stack<char> auxStack = new Stack<char>();
+
+                for (int i = 0; i < move.Amount; i++) {
+                    var origin = stacks[move.Origin].Pop();
+                    auxStack.Push(origin);
+                }
+
+                while (auxStack.Count > 0)
+                    stacks[move.Destination].Push(auxStack.Pop());
+            }
+
+            //obtatin top char in stacks
+            string topStacks = ObtainTopSacks(stacks);
+
+            return topStacks;
+        }
+
+        private static string ObtainTopSacks(Stack<char>[] stacks)
+        {
             string topStacks = String.Empty;
             for (int i = 0; i < stacks.Length; i++) {
                 topStacks += stacks[i].Peek();

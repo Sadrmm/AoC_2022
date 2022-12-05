@@ -7,7 +7,10 @@ namespace AoC_2022
         static void Main(string[] args)
         {
             //Console.WriteLine(Day1.PartA());
-            Console.WriteLine(Day1.PartB());
+            //Console.WriteLine(Day1.PartB());
+            //Console.WriteLine(Day2.PartA());
+            //Console.WriteLine(Day2.PartB());
+            Console.WriteLine(Day3.PartA());
         }
     }
 }

@@ -29,6 +29,27 @@ namespace AoC_2022
             return sumOfPriorities;
         }
 
+        public static int PartB()
+        {
+            string[] input = File.ReadAllLines("../../inputEjer3B.txt");
+
+            int sumOfPriorities = 0;
+
+            //check the group
+            for (int i = 0; i < input.Length; i += 3) {
+                
+                //check which char is of each group
+                foreach (char item in input[i]) {
+                    if (input[i+1].Contains(item) && input[i + 2].Contains(item)) {
+                        sumOfPriorities += ObtainPriority(item);
+                        break;
+                    }
+                }
+            }
+
+            return sumOfPriorities;
+        }
+
         private static int ObtainPriority(char item)
         {
             //IsUpper

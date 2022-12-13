@@ -21,7 +21,9 @@ namespace AoC_2022
             //Console.WriteLine(Day7.PartA());
             //Console.WriteLine(Day7.PartB());
             //Console.WriteLine(Day8.PartA());
-            Console.WriteLine(Day8.PartB());
+            //Console.WriteLine(Day8.PartB());
+            //Console.WriteLine(Day9.PartA());
+            Console.WriteLine(Day9.PartB());
         }
     }
 }

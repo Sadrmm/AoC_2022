@@ -169,7 +169,7 @@ namespace AoC_2022
 
         public static int PartB()
         {
-            string[] input = File.ReadAllLines("../../inputEjer7A.txt");
+            string[] input = File.ReadAllLines("../../inputEjer7B.txt");
 
             //set spaces and rootDirectoryName
             int totalDiskSpace = 70000000;

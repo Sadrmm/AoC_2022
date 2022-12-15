@@ -25,7 +25,15 @@ namespace AoC_2022
             //Console.WriteLine(Day9.PartA());
             //Console.WriteLine(Day9.PartB());
             //Console.WriteLine(Day10.PartA());
-            Console.WriteLine(Day10.PartB());
+            //Console.WriteLine(Day10.PartB());
+
+            //int firstNumber = 32;
+            //string operation = "old * 10";
+            //operation = operation.Replace("old", firstNumber.ToString());
+            //int total = Convert.ToInt32(new DataTable().Compute(operation, null));
+            //Console.WriteLine(total);
+
+            Console.WriteLine(Day11.PartA());
         }
     }
 }
